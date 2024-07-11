@@ -10,6 +10,7 @@ class CustomDrawerBottomSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       children: [
+        Spacer(),
         InActiveDrawerItem(
           drawerItemModel: DrawerItemModel(
               image: AppImages.imagesSettings, title: 'Setting system'),

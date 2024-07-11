@@ -32,10 +32,6 @@ class CustomDrawer extends StatelessWidget {
           ),
           DrawerItemsSliverList(),
           SliverFillRemaining(
-            hasScrollBody: false,
-            child: Spacer(),
-          ),
-          SliverToBoxAdapter(
             child: Padding(
               padding: EdgeInsets.only(top: 32, bottom: 48),
               child: CustomDrawerBottomSection(),
